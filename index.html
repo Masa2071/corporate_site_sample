@@ -1,15 +1,67 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>サンプル建設</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <div class="nav-right">サンプル建設</div>
-      <div class="nav-left">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>サンプル内装</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header-wrap">
+        <div class="header-container">
+          <div class="header">
+            <h1><a href="#">サンプル内装</a></h1>
+            <nav class="header-nav">
+              <ul>
+                <li>企業理念</li>
+                <li>施工事例</li>
+                <li>採用情報</li>
+                <li>お問い合わせ</li>
+              </ul>
+            </nav>
+          </div>
+          <p class="header-container-title">未来を作る。</p>
+        </div>
+      </div>
+    <!-- お知らせ -->
+    <section class="news">
+      <h2 class="news-title">お知らせ</h2>
+      <ul class="news-list">
+        <li><a href=""><span class="news-day">2020.11.19</span>テキストテキストテキスト</a></li>
+        <li><a href=""><span class="news-day">2020.11.11</span>テキストテキスト</a></li>
+        <li><a href=""><span class="news-day">2020.11.02</span>テキスト</a></li>
+      </ul>
+    </section>
+    <!-- 施工事例  -->
+      <div class="case">
+        <h2 class="case-title">施工事例</h2>
+        <div class="case-content">
+          <div class="case-content-right">
+            <p><img src="sample-image/building1.png" alt="M様邸新築工事" srcset=""></p>
+            <h3 class="case-content-title">M様邸新築工事</h3>
+            <p>埼玉県</p> 
+            <p class="case-content-btn"><a href="#">>>詳細を見る</a></p>
+          </div>
+          <div class="case-content-left">
+            <p><img src="sample-image/building2.png" alt="スカイビル" srcset=""></p>
+            <h3 class="case-content-title">スカイビル</h3>
+            <p>東京都</p>
+            <p class="case-content-btn"><a href="#">>>詳細を見る</a></p>
+          </div>
+        </div>
+        <p class="case-lists"><a href="">施工実績一覧</a></p>
+      </div>
+      
+      <div class="image-container">
+        <img src="sample-image/company.png" alt="企業理念" srcset="" />
+        <img src="sample-image/recruit.png" alt="" srcset="" />
+        <img src="sample-image/contact.png" alt="" srcset="" />
+      </div>
+    </main>
+    <footer>
+      <div class="footer-right">サンプル建設</div>
+      <div class="footer-left">
         <ul>
           <li>企業理念</li>
           <li>施工事例</li>
@@ -17,57 +69,7 @@
           <li>お問い合わせ</li>
         </ul>
       </div>
-    </nav>
-    <div class="head-title">
-      <h1>街を作る。未来を作る。</h1>
+    </footer>
     </div>
-  </header>
-  <main>
-    <div>
-      <h2>お知らせ</h2>
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-      </ul>
-    </div>
-    <div>
-      <h2>施工事例</h2>
-      <div class="right">
-          <p>画像</p>
-          <h4>M様邸新築工事</h4>
-          <p>埼玉県</p>
-          <hr>
-          <p>詳細を見る</p>
-          <hr>
-      </div>
-      <div class="left">
-        <p>画像</p>
-        <h4>スカイビル</h4>
-        <p>東京都</p>
-        <hr>
-        <p>詳細を見る</p>
-        <hr>
-      </div>
-    </div>
-    <p>施工実績一覧</p>
-    <div>
-      <div>企業理念</div>
-      <div>採用情報</div>
-      <div>お問い合わせ</div>
-    </div>
-  </main>
-  <footer>
-    <div class="footer-right">サンプル建設</div>
-    <div class="footer-left">
-      <ul>
-        <li>企業理念</li>
-        <li>施工事例</li>
-        <li>採用情報</li>
-        <li>お問い合わせ</li>
-      </ul>
-    </div>
-  </footer>
-
-</body>
+  </body>
 </html>
